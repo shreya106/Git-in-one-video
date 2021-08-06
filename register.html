@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #mainForm{
+            width:80%;
+            margin:auto;
+            border:2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h3>This is registeration page</h3>
+    <div id="mainForm">
+        <form style="text-align: center;padding: 10px;">
+            
+            First Name: <input type="text"/><br><br>
+            Last Name: <input type="text"/><br><br>
+            Gender:<input type="radio" name="gender"/>Male <input type="radio" name="gender"/>Female <br><br>
+            Date of Birth: <input type="date"/><br><br>
+            Email: <input type="email"/><br><br>
+            Phone Number: <input type="tel"/><br><br>
+            City:
+            <select>
+                <option value="DEL">New Delhi</option>
+                <option value="BOM">Mumbai</option>
+                <option selected>chennai</option>
+                <option>Hyderabad</option>
+                <option>Banglore</option>
+            </select>
+            <br><br>
+            Preferred location(max 3):<br>
+            <select multiple>
+                <option value="DEL">New Delhi</option>
+                <option value="BOM">Mumbai</option>
+                <option selected>chennai</option>
+                <option>Hyderabad</option>
+                <option>Banglore</option>
+            </select><br><br>
+            Current Address:<br>
+            <textarea rows="10" cols="50">
+
+            </textarea><br><br>
+             Create Password:
+             <input type="Password"/><br>
+             Confirm Password:
+             <input type="password"/><br><br>
+
+             Upload you CV here:
+             <input type="file"/>
+             <br><br>
+             Skills:
+            <input type="checkbox"/>Java<input type="checkbox"/>PHP<input type="checkbox"/>Python<input type="checkbox"/>.Net
+
+        </form>
+        <br><br><br><br><br><br><br><br><br><br><br><br>
+    </div>
+</body>
+</html>

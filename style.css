@@ -1,0 +1,47 @@
+*{
+    font-style: inherit;
+    text-align: center;
+    text-shadow: lawngreen;
+    border: hotpink;
+}
+
+
+p{
+    color:yellowgreen;
+    font-size: 40px;
+}
+div{
+    color: rgb(16, 49, 77);
+   /* font-family: 'Courier New', Courier, monospace;
+     font-size: 30px;
+     font-weight: bold;
+     font-style: italic; */
+    font: 20px Courier New bold italic;
+     
+
+}
+#div1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: mediumslateblue;
+    font-size: 20px;
+}
+ul{
+    list-style: none;
+
+}
+
+li{
+    float:left;
+}
+c1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blueviolet;
+    text-align: center;
+
+}
+a{
+    padding: 10px;
+    text-decoration: none;
+    background-color: coral;
+}
